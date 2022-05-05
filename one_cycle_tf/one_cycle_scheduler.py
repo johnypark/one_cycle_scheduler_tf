@@ -146,6 +146,7 @@ class OneCycle(tf.keras.optimizers.schedules.LearningRateSchedule):
             "cycle_size": self.cycle_size,
             "scale_mode": self.scale_mode,
             "shift_peak": self.shift_peak,
+            "final_lr_scale": self.final_lr_scale
         }
 
 
